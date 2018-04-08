@@ -1,5 +1,5 @@
 # SPARQL_BBS_plans
 
-Code to ennumerate "plans" for evaluation of SPARQL queries by leveraging Backward Bisimulation Summaries, according to the corresponding research paper to be released soon.
+Code to ennumerate "plans" for evaluation of SPARQL queries by leveraging Backward Bisimulation Summaries, according to the corresponding research paper. 
 
-A detailed explanation will be posted when the research paper is released.
+The paper is found here: https://hal.archives-ouvertes.fr/hal-01742495/document
