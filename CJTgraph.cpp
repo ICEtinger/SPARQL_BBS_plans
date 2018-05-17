@@ -542,7 +542,7 @@ std::vector<std::vector<triple>> CJTgraph::decompose_query(const std::vector<tri
 
 		// now adds extra variables between the decomposed predicates to get the decomposed triples.
 		// e.g.: triple_decomposition = {{?N0 C ?N1}, {?N0 A ?extra0, ?extra0 B ?extra1, ?extra1 C ?N1}, {?N0 C ?extra0, ?extra0 C ?N1}, ...}.
-		std::vector<triple> a; ///////////////////////////////
+		std::vector<triple> a;
 		std::vector<std::vector<triple>> triple_decomposition(triple_decomposition_predicates.size(), a);
 		// triple_decomposition is a vector of the possible options whose union is the original triple to_decompose.
 		// for each such option:
